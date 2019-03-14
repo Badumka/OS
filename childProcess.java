@@ -8,7 +8,7 @@ class DemoThread implements Runnable {
         } catch (InterruptedException e) {
         }
     }
-    public void run() { //выполняет простую программму
+    public void run() { //выполняет простой метод после которого завершится поток
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println("" + i);
